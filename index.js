@@ -1,14 +1,14 @@
-const mineflayer = require('mineflayer')
-const pvp = require('mineflayer-pvp').plugin
+const mineflayer = ('mineflayer')
+const pvp = ('mineflayer-pvp').plugin
 const {
     pathfinder,
     Movements,
     goals
-} = require('mineflayer-pathfinder')
-const armorManager = require('mineflayer-armor-manager')
+} = ('mineflayer-pathfinder')
+const armorManager = ('mineflayer-armor-manager')
 
-const cmd = require('mineflayer-cmd').plugin
-const fs = require('fs');
+const cmd = ('mineflayer-cmd').plugin
+const fs = ('fs');
 let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
@@ -276,3 +276,4 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
     console.log('MADE BY HEALER')
 })
+
