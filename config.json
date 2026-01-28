@@ -1,11 +1,12 @@
 {
 	"ip":"bombsquad-Lqxd.aternos.me",
 	"port": "25719",
-	"name": "MR_MR11",
+	"name": "Darkcannery2",
 	"auto-night-skip":"false",
 	"login-enabled":"true",
-	"register-cmd":"/register MR_MR121 MR_MR121",
-	"login-cmd":"/login MR_MR121"
+	"register-cmd":"/register "Darkcannery2 Darkcannery2",
+	"login-cmd":"/login Darkcannery2"
 
 }
+
 
